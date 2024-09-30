@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro</title>
+    <style>
+        fieldset {
+            margin-bottom: 15px;
+        }
+    </style>
+</head>
+
+<body>
+    <div>
+        <div>
+            <form action="index.html" method="post">
+                <h1> Cadastrar usuário </h1>
+
+                <fieldset>
+                    <legend>1 Dados pessoais</legend>
+                    <label for="nome">Nome:</label>
+                    <input type="text" name="nome" id="nome">
+
+                    <label for="email">Email:</label>
+                    <input type="email" name="email" id="email">
+
+                    <label for="senha">Senha:</label>
+                    <input type="password" name="senha" id="senha">
+
+                    <label for="confirmarSenha">Confirma senha:</label>
+                    <input type="password" name="confirmarSenha" id="confirmarSenha">
+
+                    <label>Idade:</label>
+
+                    <input type="radio" name="idade" id="acima17" value="Acima 17">
+                    <label for="acima17">Acima 17</label>
+                    <input type="radio" name="idade" id="abaixoigual17" value="Abaixo ou igual 17">
+                    <label for="abaixoigual17">Abaixo ou igual 17</label>
+
+                </fieldset>
+
+                <fieldset>
+                    <legend>2 Perfil</legend>
+                    <label for="descricao">Descrição:</label>
+                    <textarea name="descricao" id="descricao" cols="40" rows="3"></textarea>
+
+                    <label for="perfilTrabalho">Perfil trabalho:</label>
+                    <select name="perfilTrabalho" id="perfilTrabalho">
+                        <option value="Front-End Developer">Front-End Developer</option>
+                        <option value="Back-End Developer">Back-End Developer</option>
+                        <option value="Fullstack Developer">Fullstack Developer</option>
+                    </select>
+                    <label for="interesses">Interesses:</label>
+                    <input type="checkbox" name="interesses" id="programadorCheck" value="Programador">
+                    <label for="programadorCheck">Programador</label>
+                    <br>
+                    <input type="checkbox" name="interesses" id="designCheck" value="Design">
+                    <label for="designCheck">Design</label>
+                    <br>
+                    <input type="checkbox" name="interesses" id="analistaCheck" value="Analista">
+                    <label for="analistaCheck">Analista</label>
+
+                </fieldset>
+
+
+                <button type="submit">Enviar
+
+                    dados</button>
+
+            </form>
+        </div>
+    </div>
+</body>
+
+</html>
