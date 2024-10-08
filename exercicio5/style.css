@@ -1,0 +1,36 @@
+
+p {
+    font-family: 'Verdana', sans-serif;
+}
+
+.id {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: green;
+}
+
+ol {
+    list-style-type: upper-alpha;
+}
+
+li {
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.titulo {
+    background-color: gray;
+}
+
+.titulo:hover {
+    background-color: rgb(201, 201, 201);
+}
+
+.minhadiv {
+    border: #000 dashed;
+    background-color: rgb(201, 201, 201);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
