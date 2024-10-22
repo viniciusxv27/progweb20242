@@ -1,0 +1,41 @@
+h1{
+    text-align: center;
+}
+
+.container{
+    position: relative;
+    display: inline-block;
+    width: 100%;
+    height: 400px;
+    z-index: 1;
+    /* 
+        Resposta: z-index é uma propriedade que define a pilha de elementos (sobreposição).;
+    */
+}
+
+.container img{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 80%;
+    height: 100%;
+    opacity: 0.5;
+    border: 2px solid green;
+    margin: 0 auto;
+    /*
+    Resposta: para alinhar a imagem eu utilizaria a propriedade margin: 0 auto;
+    */
+}
+
+.centro{
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    text-align: center;
+    color: #fff;
+    z-index: 999;
+    /* 
+        Resposta: z-index é uma propriedade que define a pilha de elementos (sobreposição).;
+    */
+}
